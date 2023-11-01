@@ -1,5 +1,5 @@
 spring:
-    mail:
+  mail:
     host: smtp.gmail.com
     port: 587 # 2
     username: "{cipher}ff85b11cc353267b9cc48e88ec7c19387b823a0162ec01e06a3d4aa9cc3e1035"
@@ -11,3 +11,5 @@ spring:
           timeout: 5000
           starttls:
             enable: true
+
+
