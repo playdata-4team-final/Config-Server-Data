@@ -1,0 +1,13 @@
+spring:
+    mail:
+    host: smtp.gmail.com
+    port: 587 # 2
+    username: "{cipher}ff85b11cc353267b9cc48e88ec7c19387b823a0162ec01e06a3d4aa9cc3e1035"
+    password: "{cipher}39162e27d207b19346406d394c85f9790f14a05283b22765e86c57a3a5a4c0282491e50deff88fe8d7ed8e52b3e51d51"
+    properties:
+      mail:
+        smtp:
+          auth: true
+          timeout: 5000
+          starttls:
+            enable: true
